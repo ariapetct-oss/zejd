@@ -1,0 +1,4 @@
+KCTP.OnServerEvent:Connect(function(player)
+    local character = player.Character
+    character:SetPrimaryPartCFrame(character:GetPrimaryPartCFrame()*CFrame.new(0, 0, -5))
+end)
